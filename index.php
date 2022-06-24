@@ -18,10 +18,51 @@
     <h1>Cards style Promdise sheet-php</h1>
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <h3>Cards normal</h3>
+            <h3>Cards normal</h3>
+            <div class="col-md-3">
+                <div class="card card-blog">
+                    <div class="flip-card-inner">
+                        <div class="card-image">
+                            <img class="card-img-top card-img1 card-img-cover" src="https://images.unsplash.com/photo-1562575214-da9fcf59b907?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aW50ZXJuZXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="venezuela" width="200" height="200" loading="lazy">
+                            <img class="card-img-top img2 card-img-opacity card-img-cover" src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8aW50ZXJuZXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" width="200" height="200" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="table mt-4">
+                        <span class="text-muted text-center text-md"><img src="./admin/img/img-flags/svg-flags-ubicacion/venezuela.svg" alt="venezuela" width="30" height="30" lazy="loading"> VE/LARA</span>
+                        <p class="category text-center text-md"><span class="text-muted"><i class="fa fa-address-card"></i> Independiente</span> </p>
+
+                        <p class="card-description text-center text-md"> "Descasando, un rato..."</p>
+                        <div class="text-center">
+                            <a href="#" class="badge badge-warning">
+                                <img src="./admin/img/avatar3.png" alt="..." class="img-fluid img-thumbnail rounded-circle avatar img-raised" width="30" height="30">
+                                <span class="text-center text-lg">Jesus</span>
+                            </a> <i class="fas fa-star star-ud-empty"></i>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-6">
+
+            <div class="col-md-3">
+
+                <div class="card card-blog">
+                    <div class="flip-card-inner">
+                        <div class="card-image">
+                            <img class="card-img-top card-img1 card-img-cover" src="https://images.unsplash.com/photo-1597733336794-12d05021d510?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW50ZXJuZXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="venezuela" width="200" height="200" loading="lazy">
+                            <img class="card-img-top img2 card-img-opacity card-img-cover" src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8aW50ZXJuZXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="venezuela" width="200" height="200" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="table mt-4">
+                        <span class="text-muted text-center text-md"><img src="./admin/img/img-flags/svg-flags-ubicacion/venezuela.svg" alt="venezuela" width="30" height="30" lazy="loading"> VE/YARACUY</span>
+                        <p class="category text-center text-md"><span class="text-muted"><i class="fa fa-address-card"></i> Independiente</span> </p>
+
+                        <p class="card-description text-center text-md"> "Descasando, un rato..."</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
                 <h3>Cards Mini</h3>
             </div>
         </div>

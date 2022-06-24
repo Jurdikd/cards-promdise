@@ -1,0 +1,467 @@
+/* This css file is to over write bootstarp css
+---------------------------------------------------------------------- */
+
+
+/*
+Theme Name: Cards style Promdise
+Theme URI: https://jurdikd.github.io/cards-promdise/
+Author: Jurdikd
+Author URI: https://github.com/Jurdikd
+Description: Cards style promdise compacts
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: card, cards, css3, modern, Jurdikd, bootstrap
+*---------------------------------------------------------------------- */
+
+
+/*Todas las card*/
+/*.card {
+	background-color: var(--color-bg-img) !important;
+	border: none !important;
+	border-radius: 1.1rem;
+	box-shadow: 0 0.3rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.4rem 1.3rem 0 rgba(0, 0, 0, 0.19);
+}
+.card-header {
+	background-color: var(--color-menu) !important;
+	color: var(--text-color-simple) !important;
+}
+.card-body {
+	background-color: var(--color-body-card) !important;
+}
+.card-footer {
+	background-color: var(--color-bg-secondary) !important;
+}
+.list-card {
+	background-color: var(--color-menu) !important;
+}
+*/
+/*Sombras*/
+/*.card-info {
+	box-shadow: var(--sombra-caja);
+}
+*/
+
+/*---------------------------------------------------------------------- /
+CARDS
+----------------------------------------------------------------------- */
+
+.card {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	margin-bottom: 1.8rem;
+	border-radius: 0.4rem;
+	color: rgba(0, 0, 0, 0.87);
+	background: #fff;
+	box-shadow: 0 0.13rem 0.13rem 0 rgba(0, 0, 0, 0.14),
+		0 0.13rem 0.06rem -0.13rem rgba(0, 0, 0, 0.2), 0 0.06rem 0.3rem 0 rgba(0, 0, 0, 0.12);
+}
+
+.card .card-image {
+	max-height: 50%;
+	overflow: hidden;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: -2em;
+	border-radius: 0.4rem;
+	box-shadow: 0 1rem 0.5rem -0.8rem rgba(0, 0, 0, 0.56),
+		0 0.3rem 1.6rem 0rem rgba(0, 0, 0, 0.12), 0 0.5rem 0.6rem -0.3rem rgba(0, 0, 0, 0.2);
+}
+
+.card .card-image .img {
+	border-radius: 0.4rem;
+	pointer-events: none;
+}
+
+.card .card-image .card-caption {
+	position: absolute;
+	bottom: 1em;
+	left: 1em;
+	color: #fff;
+	font-size: 1.3em;
+	text-shadow: 0 2px 5px rgba(33, 33, 33, 0.5);
+}
+.card-img-p{
+   width: 50%;
+}
+
+.img-raised {
+	box-shadow: 0 1rem 3rem -0.8rem rgba(0, 0, 0, 0.56),
+		0 0.3rem 1.6rem 0rem rgba(0, 0, 0, 0.12), 0 0.5rem 0.6rem -0.3rem rgba(0, 0, 0, 0.2);
+}
+
+.card .ftr {
+	margin-top: 0.9rem;
+}
+
+.card .ftr div {
+	display: inline-block;
+}
+
+.card .ftr .author {
+	color: #888;
+}
+
+.card .ftr .stats {
+	line-height: 0.87rem;
+}
+
+.card .ftr .stats {
+	font-size: 0.87rem;
+}
+
+/* ============ Card Table ============ */
+
+.table {
+	margin-bottom: 0px;
+}
+
+.card .table {
+	padding: 0.93rem 1.87rem;
+}
+
+.card .table-primary {
+	background: linear-gradient(60deg, #ab47bc, #7b1fa2);
+}
+
+.card .table-info {
+	background: linear-gradient(60deg, #26c6da, #0097a7);
+}
+
+.card .table-success {
+	background: linear-gradient(60deg, #66bb6a, #388e3c);
+}
+
+.card .table-warning {
+	background: linear-gradient(60deg, #ffa726, #f57c00);
+}
+
+.card .table-danger {
+	background: linear-gradient(60deg, #ef5350, #d32f2f);
+}
+
+.card .table-rose {
+	background: linear-gradient(60deg, #ec407a, #c2185b);
+}
+
+.card [class*="table-"] {
+	color: #ffffff;
+	border-radius: 0.37rem;
+}
+
+.card [class*="table-"] .card-caption a,
+.card [class*="table-"] .card-caption,
+.card [class*="table-"] .icon i {
+	color: #ffffff;
+}
+
+.card [class*="table-"] .icon i {
+	border-color: rgba(255, 255, 255, 0.25);
+}
+
+.card [class*="table-"] .author a,
+.card [class*="table-"] .ftr .stats,
+.card [class*="table-"] .category,
+.card [class*="table-"] .card-description {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.card [class*="table-"] .author a:hover,
+.card [class*="table-"] .author a:focus,
+.card [class*="table-"] .author a:active {
+	color: #ffffff;
+}
+
+.card [class*="table-"] h1 small,
+.card [class*="table-"] h2 small,
+.card [class*="table-"] h3 small {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+/* ============ Card Blog ============ */
+
+.card-blog {
+	margin-top: 1.87rem;
+}
+
+.card-blog .card-caption {
+	margin-top: 0.31rem;
+}
+
+.card-blog .card-image + .category {
+	margin-top: 1.25rem;
+}
+
+.card-raised {
+	box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12),
+		0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+/* ============ Card Background ============ */
+
+.card-background {
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+}
+
+.card-background .table {
+	position: relative;
+	z-index: 2;
+	min-height: 17.5rem;
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
+	max-width: 27.5rem;
+	margin: 0 auto;
+}
+
+.card-background .category,
+.card-background .card-description,
+.card-background small {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.card-background .card-caption {
+	color: #ffffff;
+	margin-top: 0.62rem;
+}
+
+.card-background:after {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	display: block;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.56);
+	border-radius: 0.37rem;
+}
+
+/* ============ Card Profile ============ */
+
+.card-profile {
+	margin-top: 1.8rem;
+	text-align: center;
+}
+
+/* ============ Card Category ============ */
+
+.category {
+	position: relative;
+	line-height: 0;
+	margin: 15px 0;
+}
+
+.card .category-social .fa {
+	font-size: 24px;
+	position: relative;
+	margin-top: -4px;
+	top: 2px;
+	margin-right: 5px;
+}
+
+/* ============ Card Author ============ */
+
+.card .author .avatar {
+	width: 2rem;
+	height: 2rem;
+	overflow: hidden;
+	border-radius: 50%;
+	margin-right: 0.3rem;
+}
+
+.card .author a {
+	color: #333;
+	text-decoration: none;
+}
+
+.card .author a .ripple-cont {
+	display: none;
+}
+
+/* ============ Card Product ============ */
+
+.card-product {
+	margin-top: 30px;
+}
+
+.card-product .btn-simple.btn-just-icon {
+	padding: 0;
+}
+
+.card-product .ftr {
+	margin-top: 5px;
+}
+
+.card-product .ftr .stats {
+	margin-top: 4px;
+	top: 0;
+}
+
+.card-product .ftr h4 {
+	margin-bottom: 0;
+}
+
+.card-product .card-caption,
+.card-product .category,
+.card-product .card-description {
+	text-align: center;
+}
+
+.card-description p {
+	color: #888;
+}
+
+.card-caption,
+.card-caption a {
+	color: #333;
+	text-decoration: none;
+}
+
+.card-caption {
+	font-weight: 700;
+	font-family: "Roboto Slab", "Times New Roman", serif;
+}
+
+/* ============ Card Testimonial ============ */
+
+.card-testimonial {
+	margin-top: 0;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.card-profile .btn-just-icon.btn-raised,
+.card-testimonial .btn-just-icon.btn-raised {
+	margin-left: 6px;
+	margin-right: 6px;
+}
+
+.card-profile .card-avatar,
+.card-testimonial .card-avatar {
+	max-width: 8rem;
+	max-height: 8rem;
+	margin: -3rem auto 0;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12),
+		0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.card-profile.card-plain .card-avatar,
+.card-testimonial.card-plain .card-avatar {
+	margin-top: 0;
+}
+
+.card-testimonial .card-avatar {
+	max-width: 100px;
+	max-height: 100px;
+}
+
+.card-testimonial .card-description {
+	font-style: italic;
+}
+
+.card-testimonial .card-description + .card-caption {
+	margin-top: 30px;
+}
+
+.card-testimonial .icon {
+	margin-top: 30px;
+}
+
+.card-testimonial .icon {
+	font-size: 40px;
+}
+
+.card-testimonial .ftr {
+	margin-top: 0;
+}
+/*Img*/
+
+.flip-card-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+	margin-right: 1em;
+	margin-top: -2em;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card-inner:hover .card-image {
+	transform: scale(1.1);
+	transition: 2s;
+}
+.flip-card-front,
+.flip-card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden; /* Safari */
+	backface-visibility: hidden;
+}
+/* Style the front side (fallback if image is missing) */
+
+.card-img-opacity:hover {
+	opacity: 0;
+}
+.card-img1 {
+	display: none;
+}
+.card-image:hover .img2 {
+	display: none;
+}
+.card-image:hover .img2 {
+	display: none;
+}
+.card-image:hover .card-img1 {
+	background-color: #afafaf;
+	display: block;
+}
+.card-image:visited .card-img2 {
+	display: none;
+}
+.card-image:visited .card-img1 {
+	display: block;
+}
+/* Style the back side */
+.flip-card-back {
+	transform: rotateY(180deg);
+}
+
+.card-img-rs {
+	object-fit: contain;
+}
+.card-img-cover {
+	object-fit: cover !important;
+	background-position: center center !important;
+	-webkit-background-size: cover !important;
+	-moz-background-size: cover !important;
+	-o-background-size: cover !important;
+	background-size: cover !important;
+}
+.card-img-fill {
+	object-fit: contain;
+}
+
+.card-img-rs:hover,
+.card-img-rs:active,
+.card-img-rs:visited,
+.card-img-rs:link {
+	transform: scale(1.5);
+	z-index: 10;
+}
+
+.card-testimonial .ftr .card-avatar {
+	margin-top: 10px;
+	margin-bottom: -50px;
+}
+@media (max-width: 768px) {
+	.flip-card-inner {
+		height: 50% !important;
+	}
+}
