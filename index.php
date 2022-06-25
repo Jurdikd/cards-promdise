@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <h1>Cards style Promdise</h1>
+    <h1>Cards by Promdise</h1>
     <div class="container">
         <div class="row">
             <h3>Cards normal</h3>
