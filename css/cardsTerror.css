@@ -11,7 +11,7 @@ Description: Cards style promdise compacts
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: card, cards, css3, modern, Jurdikd, bootstrap
+Tags: card, cards, css3, modern, jurdikd, bootstrap, promdise
 *---------------------------------------------------------------------- */
 
 
@@ -40,8 +40,19 @@ Tags: card, cards, css3, modern, Jurdikd, bootstrap
 /*.card-info {
 	box-shadow: var(--sombra-caja);
 }
+.card-gradient-orange::after {
+    position: absolute;
+    top: -4px; bottom: -4px;
+    left: -4px; right: -4px;
+    background: linear-gradient(to right, rgb(255, 123, 0), rgb(23, 31, 138));
+    content: '';
+    z-index: -1;
+    border-radius: 0.5em;
+}
 */
 
+
+ 
 /*---------------------------------------------------------------------- /
 CARDS
 ----------------------------------------------------------------------- */
@@ -455,7 +466,49 @@ CARDS
 	transform: scale(1.5);
 	z-index: 10;
 }
+/* Cards gradients */
 
+/* Gradient Presentation */
+.card-gradient-presentation {
+    background-clip: padding-box;
+}
+.card-gradient-presentation::after {
+    position: absolute;
+    top: -4px; bottom: -4px;
+    left: -4px; right: -4px;
+    background: linear-gradient(rgb(255, 123, 0), rgb(23, 31, 138));
+    content: '';
+    z-index: -1;
+    border-radius: 0.5em;
+}
+/* Gradient Article */
+.card-gradient-article {
+    background-clip: padding-box;
+}
+.card-gradient-article::after {
+    position: absolute;
+    top: -4px; bottom: -4px;
+    left: -4px; right: -4px;
+	background: linear-gradient(rgba(193, 52, 76, 1),
+	rgba(97, 26, 38, 1));
+    content: '';
+    z-index: -1;
+    border-radius: 0.5em;
+}
+/* Gradient News */
+.card-gradient-news {
+    background-clip: padding-box;
+}
+.card-gradient-news::after {
+    position: absolute;
+    top: -4px; bottom: -4px;
+    left: -4px; right: -4px;
+    background: linear-gradient(rgba(52, 147, 193, 1),
+	rgba(26, 74, 97, 1));
+    content: '';
+    z-index: -1;
+    border-radius: 0.5em;
+}
 .card-testimonial .ftr .card-avatar {
 	margin-top: 10px;
 	margin-bottom: -50px;
