@@ -181,15 +181,15 @@ CARDS
 
 /* ============ Card Blog ============ */
 
-.card-blog {
+.card-p {
 	margin-top: 1.87rem;
 }
 
-.card-blog .card-caption {
+.card-p .card-caption {
 	margin-top: 0.31rem;
 }
 
-.card-blog .card-image + .category {
+.card-p .card-image + .category {
 	margin-top: 1.25rem;
 }
 

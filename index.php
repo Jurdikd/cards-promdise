@@ -15,12 +15,12 @@
 </head>
 
 <body>
-    <h1>Cards style Promdise sheet-php</h1>
+    <h1>Cards style Promdise</h1>
     <div class="container">
         <div class="row">
             <h3>Cards normal</h3>
             <div class="col-md-3">
-                <div class="card card-blog">
+                <div class="card card-p">
                     <div class="flip-card-inner">
                         <div class="card-image">
                             <img class="card-img-top card-img1 card-img-cover" src="https://images.unsplash.com/photo-1562575214-da9fcf59b907?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aW50ZXJuZXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="venezuela" width="200" height="200" loading="lazy">
@@ -41,10 +41,9 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-md-3">
 
-                <div class="card card-blog">
+                <div class="card card-p">
                     <div class="flip-card-inner">
                         <div class="card-image">
                             <img class="card-img-top card-img1 card-img-cover" src="https://images.unsplash.com/photo-1597733336794-12d05021d510?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW50ZXJuZXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="venezuela" width="200" height="200" loading="lazy">
