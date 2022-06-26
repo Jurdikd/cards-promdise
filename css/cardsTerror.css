@@ -75,11 +75,11 @@ CARDS
 	margin-left: 1em;
 	margin-right: 1em;
 	margin-top: -2em;
+	padding: 0.2em;
 	border-radius: 0.4rem;
 	box-shadow: 0 1rem 0.5rem -0.8rem rgba(0, 0, 0, 0.56),
 		0 0.3rem 1.6rem 0rem rgba(0, 0, 0, 0.12), 0 0.5rem 0.6rem -0.3rem rgba(0, 0, 0, 0.2);
 }
-
 .card .card-image .img {
 	border-radius: 0.4rem;
 	pointer-events: none;
@@ -468,6 +468,17 @@ CARDS
 }
 /* Cards gradients */
 
+
+.gradient-presentation{
+	background: linear-gradient(17.29deg, rgb(255, 123, 0), rgb(23, 31, 138)) !important;
+}
+.gradient-news{
+	background: linear-gradient(17.29deg, #C1344C 26.77%, #611A26 87.52%) !important;
+}
+.gradient-article{
+	background:linear-gradient(17.29deg, #3493C1 26.77%, #1A4A61 87.52%) !important;
+}
+
 /* Gradient Presentation */
 .card-gradient-presentation {
     background-clip: padding-box;
@@ -513,8 +524,18 @@ CARDS
 	margin-top: 10px;
 	margin-bottom: -50px;
 }
+
+/* Resposive */
 @media (max-width: 768px) {
+	.card-p{
+		height: 100px;
+		
+	}
+	.card-image{
+		max-width: 55% !important;
+		max-height: 115% !important;
+	}
 	.flip-card-inner {
-		height: 50% !important;
+		margin-left: -32px !important;
 	}
 }
