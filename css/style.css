@@ -2,15 +2,28 @@ body{
     background: linear-gradient(#a42e6e, #783057);
 }
 body::-webkit-scrollbar {
-    width: 5px;               /* width of the entire scrollbar */
+    width: 0.2em;               /* width of the entire scrollbar */
+	display: none;
   }
   
 body::-webkit-scrollbar-track {
-    background: rgb(236, 210, 162);        /* color of the tracking area */
+    background:#f0f0f02f;        /* color of the tracking area */
   }
+  body::-webkit-scrollbar-track:hover,
+  body::-webkit-scrollbar-track:active {
+  background: #414141;
+}
   
 body::-webkit-scrollbar-thumb {
-    background-color: rgb(106, 106, 143);    /* color of the scroll thumb */
-    border-radius: 10px;       /* roundness of the scroll thumb */
-    border: 3px solid rgb(126, 126, 126);  /* creates padding around scroll thumb */
+    background-color: rgba(123, 123, 151, 0.459);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border:0.2em solid rgb(53, 53, 53);  /* creates padding around scroll thumb */
   }
+body::-webkit-scrollbar-thumb:hover {
+    background: #c4c3c3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+body::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+}
