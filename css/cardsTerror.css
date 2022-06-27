@@ -578,6 +578,10 @@ CARDS
 	    max-width: 40% !important;
     	max-height: 120% !important;
 	}
+	.card-image img{
+		width: 100%;
+		height: 100px;
+	}
 	.flip-card-inner {
 		margin-left: -2em !important;
 	}
@@ -624,6 +628,10 @@ CARDS
 		max-height: 120% !important;
 		margin-top: -1em;
 	}
+	.card-image img{
+		width: 100%;
+		height: 100px;
+	}
 	.card-content{
     	left: 50% !important;
 	}
@@ -653,6 +661,10 @@ CARDS
 	    max-width: 55% !important;
 		max-height: 120% !important;
 		margin-top: -1em;
+	}
+	.card-image img{
+		width: 100%;
+		height: 100px;
 	}
 	.card-content{
     	left: 50% !important;
