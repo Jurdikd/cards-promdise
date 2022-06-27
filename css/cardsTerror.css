@@ -526,7 +526,9 @@ CARDS
 }
 
 /* Resposive */
-@media (max-width: 768px) {
+
+/* Responsive tablets*/
+@media (max-width: 800px) {
 	.card-p{
 		height: 100px;
 		
@@ -537,5 +539,22 @@ CARDS
 	}
 	.flip-card-inner {
 		margin-left: -32px !important;
+	}
+}
+/* Resposive phones */
+@media (max-width: 500px) {
+	.card-p{
+		left: 15px;
+		height: 96px;
+		
+	}
+	.card-image{
+		max-width: 55% !important;
+		max-height: 115% !important;
+	}
+	.flip-card-inner {
+		margin-left: -32px !important;
+		width: 160% !important;
+		height: 99% !important;
 	}
 }
